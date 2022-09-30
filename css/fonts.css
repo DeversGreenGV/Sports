@@ -1,0 +1,76 @@
+
+    @font-face {
+        font-family: "Raleway-Black";  
+        src: url("../fonts/Raleway-Black.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: "Raleway-Bold";  
+        src: url("../fonts/Raleway-Bold.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: "Raleway-ExtraBold";  
+        src: url("../fonts/Raleway-ExtraBold.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: "Raleway-Italic";  
+        src: url("../fonts/Raleway-Italic.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: "Raleway-Light";  
+        src: url("../fonts/Raleway-Light.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: "Raleway-Medium";  
+        src: url("../fonts/Raleway-Medium.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: "Raleway-Regular";  
+        src: url("../fonts/Raleway-Regular.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: "Raleway-SemiBold";  
+        src: url("../fonts/Raleway-SemiBold.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal;
+    }
+
+
+    @font-face {
+        font-family: "Roboto-Black";  
+        src: url("../fonts/Roboto-Black.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: "Roboto-Bold";  
+        src: url("../fonts/Roboto-Bold.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: "Roboto-Medium";  
+        src: url("../fonts/Roboto-Medium.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: "Roboto-Regular";  
+        src: url("../fonts/Roboto-Regular.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal;
+    }
+
