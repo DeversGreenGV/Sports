@@ -81,6 +81,9 @@
     .footer-cont {
         padding: 5vh 12vw;
     }
+    .soc-cont{
+        width: 60%;
+    }
 }
 @media (max-width: 1280px) { 
     header {
@@ -236,6 +239,8 @@
     .socials p {
         font-size: 1.4vw;
     }
+    
+    
     .links {
         width: 50%;
         justify-content: space-around;
