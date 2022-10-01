@@ -16,7 +16,7 @@ input[type=text],textarea{outline:none;border-radius:0;}
 
 :root {
     --color-blue: #3ea2d8;
-   ;
+    --color-active-blue:rgb(92, 175, 220);
 }
 body{
     /* background-color: #111; */position: relative;
@@ -166,13 +166,25 @@ header .subtitle{
 }
 .navigation ul li{
     display: flex;
-    color: var(--color-blue);
+    
     font-family: 'Raleway-Medium', serif;
     font-size: 19px;
     cursor: pointer;
 }
-
-
+.navigation li a{
+  text-decoration: none;
+  color: var(--color-blue);
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) all ;
+  transform: scale(1);
+}
+.navigation li a:hover{
+    transform: scale(1.1);
+    color: var(--color-active-blue);
+    /* text-shadow: 
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 8px #fff; */
+}
 /* ////////////////////////////////////////// HEADER */
 
 
@@ -230,7 +242,6 @@ padding: 130px 15vw;
     color: black;
     background: black;
     mix-blend-mode: screen;
-
 }
 .AboutUs p{
     width: 50%;
@@ -241,20 +252,29 @@ padding: 130px 15vw;
     padding-top: 3vh;
     
 }
-.AboutUs button{
+.AboutUs a{
     width: max-content;
+    margin-top: 7vh;
+}
+.AboutUs button{
     text-align: center;
     font-size: 20px;
     color: var(--color-blue);
     background: rgba(255, 255, 255, 0.85);
     line-height: 30px;
-    margin-top: 7vh;
     padding: 0.5vw 3vw;
     outline: none;
     border: none;
+    border: 2px solid transparent;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) all;
     border-radius: 24px;
     font-family: 'Roboto-Bold', serif;
     cursor: pointer;
+}
+.AboutUs button:hover{
+    background: var(--color-active-blue);
+    color: white;
+    /* border: 2px solid w; */
 }
 /* ////////////////////////////////////////// MAIN ABOUT-US */ 
 
@@ -641,21 +661,31 @@ padding: 130px 15vw;
     font-family: 'Roboto-Regular', serif;
     line-height: 35px;
 }
-.Tickets button {
+.Tickets a{
     width: max-content;
+    margin-top: 4vh;
+}
+.Tickets button {
+   
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
     color: var(--color-blue);
     background: rgba(255, 255, 255, 0.85);
     line-height: 30px;
-    margin-top: 4vh;
     padding: 0.5vw 3vw;
     outline: none;
-    border: none;
+    border: 2px solid transparent;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) all;
     border-radius: 24px;
     font-family: 'Roboto-Bold', serif;
     cursor: pointer;
+}
+
+.Tickets button:hover{
+    background: var(--color-active-blue);
+    color: white;
+    /* border: 2px solid w; */
 }
 .Tickets .image{
     width: 50%;
@@ -830,7 +860,8 @@ footer{
 
 .soc-cont{
     display: flex;
-    width: 100%;
+    width: 50%;
+    justify-content: space-between;
 }
 
 .soc-cont .wrap{
@@ -839,7 +870,13 @@ footer{
     height: max-content;
     background-color: #fff;
     border-radius: 50%;
-    margin-right: 8px;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) all ;
+    transform: scale(1);
+  
+}
+.soc-cont .wrap:hover{
+    transform: scale(1.1);
+    background-color: var(--color-blue);
 }
 .soc-cont i{
     width: 20px;
