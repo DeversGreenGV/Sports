@@ -313,6 +313,16 @@
         letter-spacing: 1.5px;
         color: #ffffffad !important;
     }
+    .navigation {
+        width: 15%;
+    }
+    .menu-bar {
+        outline: none;
+        
+    }
+    .constraint.block {
+        padding: 10vw 10vw;
+    }
     .AboutUs {
         background-position: 70% !important;
     }
@@ -324,7 +334,7 @@
     }
     .AboutUs p {
         font-size: 3.5vw;
-        line-height: 24px;
+        line-height: 5vw;
         width: 100%;
         text-align: justify;
     }
@@ -334,6 +344,31 @@
     .AboutUs button {
         font-size: 3.4vw;
         line-height: 30px;
-        padding: 0.6vw 4vw;
+        padding: 1vw 8vw;
+    }
+    .WhoAre h2 {
+        font-size: 4.6vw;
+        margin-bottom: 4vw;
+    }
+    .WhoAre p {
+        width: 100%;
+        font-size: 3.2vw;
+        line-height: 5.5vw;
+        text-align: justify;
+    }
+    .Dignities .item {
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    .Dignities h3 {
+        text-align: center;
+        font-size: 4.6vw;
+        margin-bottom: 4vw;
+    }
+    .Dignities p {
+        width: 100%;
+        font-size: 3.2vw;
+        line-height: 5.5vw;
+        text-align: justify;
     }
 }

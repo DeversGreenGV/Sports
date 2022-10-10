@@ -11,6 +11,7 @@ input[type=text],textarea{outline:none;border-radius:0;}
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
+    -webkit-tap-highlight-color: transparent;
 }
 /* !Убираем ненужное */
 
