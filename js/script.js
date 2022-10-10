@@ -40,15 +40,15 @@ function AnimationPulse() {
         },2000);
     }
 }
-// AnimationPulse();
+AnimationPulse();
 
 
-// window.addEventListener('load', () => {
-//     STORAGE.stop = true;
-//     STORAGE.mask.classList.add("hide");
-//     document.body.classList.remove('module');
-//     setTimeout(() => {
-//         STORAGE.mask.style.display = "none";
-//     },600);
-// })
+window.addEventListener('load', () => {
+    STORAGE.stop = true;
+    STORAGE.mask.classList.add("hide");
+    document.body.classList.remove('module');
+    setTimeout(() => {
+        STORAGE.mask.style.display = "none";
+    },600);
+})
 /* ////////////////////////////////////////// Pre - loaders */
