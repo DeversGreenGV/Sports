@@ -15,10 +15,12 @@
         font-size: 1.1vw;
         line-height: 38px;
     }
+    .AboutUs a {
+        margin-top: 5vw;
+    }
     .AboutUs button {    
         font-size: 1.1vw;
         line-height: 30px;
-        margin-top: 5.5vh;
         padding: 0.6vw 2vw;
     }
     .WhoAre p {
@@ -105,13 +107,16 @@
         font-size: 7vw;
     }
     .AboutUs p {
-        font-size: 1.2vw;
+        font-size: 1.4vw;
         line-height: 32px;
+        width: 60%;
+    }
+    .AboutUs a {
+        margin-top: 3vw;
     }
     .AboutUs button {
         font-size: 1.1vw;
         line-height: 30px;
-        margin-top: 4.5vh;
         padding: 0.2vw 1.6vw;
     }
     .WhoAre h2 {
@@ -193,6 +198,11 @@
     .Exactly .features p.post {
         font-size: 1.3vw;
     }
+    .Nature p {
+        font-size: 1.35vw;
+        width: 90%;
+        line-height: 30px;
+    }
     .Quote p.text {
         font-size: 1.4vw;
         margin-bottom: 4vh;
@@ -200,9 +210,18 @@
     .Quote p.name {
         font-size: 1.6vw;
     }
+    .Tickets h2 {
+        font-size: 2.8vw;
+    }
+    .Tickets p {
+        width: 90%;
+        font-size: 1.35vw;
+        line-height: 30px;
+    }
+    
     .Tickets button {
         font-size: 1.3vw;
-        margin-top: 2.4vh;
+        margin-top: 0vh;
         padding: 0.1vw 3vw;
     }
     .Projects .text .subtitle {
@@ -262,13 +281,59 @@
     }
 }
 @media (max-width: 1000px) { 
-    
+    .navigation ul{
+        justify-content: flex-end;
+    }
+    .navigation ul li:nth-last-child(n+2) {
+        display: none;
+    }
+    .menu-bar{
+        /* height: 35px;
+        width: 25px;
+        position: relative; */
+        display: flex !important;
+    }
 }
 
 @media (max-width: 700px) { 
     
 }
 @media (max-width: 500px) { 
-   
-
+    header img {
+        height: 30px;
+        width: 32px;
+        margin: auto 0;
+    }
+    header .title {
+        font-size: 20px;
+    }
+    header .subtitle {
+        font-size: 6px;
+        font-family: 'Raleway-Regular', serif;
+        letter-spacing: 1.5px;
+        color: #ffffffad !important;
+    }
+    .AboutUs {
+        background-position: 70% !important;
+    }
+    .AboutUs .container {
+        padding-top: 35vh;
+    }
+    .AboutUs h1 {
+        font-size: 15vw;
+    }
+    .AboutUs p {
+        font-size: 3.5vw;
+        line-height: 24px;
+        width: 100%;
+        text-align: justify;
+    }
+    .AboutUs a {
+        margin-top: 5vw;
+    }
+    .AboutUs button {
+        font-size: 3.4vw;
+        line-height: 30px;
+        padding: 0.6vw 4vw;
+    }
 }

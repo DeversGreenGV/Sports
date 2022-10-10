@@ -1,59 +1,69 @@
-let salCont = document.querySelectorAll('.sal-cont');
-console.log(salCont);
-salCont.forEach(function(item, index, array) {
-   let salContItem = item.querySelectorAll('.item');
-   let salFooterContItem = item.querySelectorAll('.items');
-   console.log(salContItem);
-   console.log(salFooterContItem);
-   function salAttrSet(list) {
-        for (let i = 0; i < list.length; i++) {
-            list[i].setAttribute('data-sal', 'slide-right');
-            list[i].setAttribute('data-sal-easing', 'ease-out-back');
-            list[i].setAttribute('data-sal-delay', 200+(i*100));
-        }
-   }
-   salAttrSet(salContItem);
-   salAttrSet(salFooterContItem);
-});
-let salTitle = document.querySelectorAll('.sal-title');
-console.log(salTitle);
-salTitle.forEach(function(item, index, array) {
-    console.log(item);
-    let salTitleH2 = item.querySelector('h2');
-    let salTitleP = item.querySelector('p');
+// let salCont = document.querySelectorAll('.sal-cont');
+// console.log(salCont);
+// salCont.forEach(function(item, index, array) {
+//    let salContItem = item.querySelectorAll('.item');
+//    let salFooterContItem = item.querySelectorAll('.items');
+//    console.log(salContItem);
+//    console.log(salFooterContItem);
+//    function salAttrSet(list) {
+//         for (let i = 0; i < list.length; i++) {
+//             list[i].setAttribute('data-sal', 'slide-right');
+//             list[i].setAttribute('data-sal-easing', 'ease-out-back');
+//             list[i].setAttribute('data-sal-delay', 200+(i*100));
+//         }
+//    }
+//    salAttrSet(salContItem);
+//    salAttrSet(salFooterContItem);
+// });
+// let salTitle = document.querySelectorAll('.sal-title');
+// console.log(salTitle);
+// salTitle.forEach(function(item, index, array) {
+//     console.log(item);
+//     let salTitleH2 = item.querySelector('h2');
+//     let salTitleP = item.querySelector('p');
 
-    console.log(salTitleH2);
-    console.log(salTitleP);
+//     console.log(salTitleH2);
+//     console.log(salTitleP);
 
-    salTitleH2.setAttribute('data-sal', 'flip-up');
-    salTitleH2.setAttribute('data-sal-easing', 'ease-in-out-cubic');
-    salTitleH2.setAttribute('data-sal-delay', 700);
+//     salTitleH2.setAttribute('data-sal', 'flip-up');
+//     salTitleH2.setAttribute('data-sal-easing', 'ease-in-out-cubic');
+//     salTitleH2.setAttribute('data-sal-delay', 700);
 
-    salTitleP.setAttribute('data-sal', 'slide-right');
-    salTitleP.setAttribute('data-sal-easing', 'ease-in-out-cubic');
-    salTitleP.setAttribute('data-sal-delay', 700);
+//     salTitleP.setAttribute('data-sal', 'slide-right');
+//     salTitleP.setAttribute('data-sal-easing', 'ease-in-out-cubic');
+//     salTitleP.setAttribute('data-sal-delay', 700);
 
-});
+// });
 
-let salQuote = document.querySelectorAll('.sal-quote .container');
-console.log(salQuote);
-salQuote.forEach(function(item, index, array) {
-    item.setAttribute('data-sal', 'fade');
-    item.setAttribute('data-sal-easing', 'ease-in-out-cubic');
-    item.setAttribute('data-sal-delay', 450);
-});
-let salPriortitlesItem = document.querySelectorAll('.Priorities .item');
-console.log(salQuote);
-salPriortitlesItem.forEach(function(item, index, array) {
-    item.setAttribute('data-sal', 'fade');
-    item.setAttribute('data-sal-easing', 'ease-in-out-cubic');
-    item.setAttribute('data-sal-delay', 200);
-});
+// let salQuote = document.querySelectorAll('.sal-quote .container');
+// console.log(salQuote);
+// salQuote.forEach(function(item, index, array) {
+//     item.setAttribute('data-sal', 'fade');
+//     item.setAttribute('data-sal-easing', 'ease-in-out-cubic');
+//     item.setAttribute('data-sal-delay', 450);
+// });
+// let salPriortitlesItem = document.querySelectorAll('.Priorities .item');
+// console.log(salQuote);
+// salPriortitlesItem.forEach(function(item, index, array) {
+//     item.setAttribute('data-sal', 'fade');
+//     item.setAttribute('data-sal-easing', 'ease-in-out-cubic');
+//     item.setAttribute('data-sal-delay', 200);
+// });
 
-    let ExactlyControl = document.querySelector('.control');
-    ExactlyControl.setAttribute('data-sal', 'slide-up');
-    ExactlyControl.setAttribute('data-sal-easing', 'ease-in-out-cubic');
-    ExactlyControl.setAttribute('data-sal-delay', 700);
+//     let ExactlyControl = document.querySelector('.control');
+//     ExactlyControl.setAttribute('data-sal', 'slide-up');
+//     ExactlyControl.setAttribute('data-sal-easing', 'ease-in-out-cubic');
+//     ExactlyControl.setAttribute('data-sal-delay', 700);
+
+//     let FooterCont = document.querySelector('.footer-cont');
+//     FooterCont.setAttribute('data-sal', 'slide-up');
+//     FooterCont.setAttribute('data-sal-easing', 'ease-out-back');
+//     FooterCont.setAttribute('data-sal-delay', 400);
+
+let BlocksFade = [];
+BlocksFade.push(document.querySelector(".Nature .text"),document.querySelector(".Tickets .text"))
+console.log(BlocksFade);
+
 
     // let footerSocials = document.querySelector('footer .socials');
     // footerSocials.setAttribute('data-sal', 'slide-right');
@@ -74,6 +84,7 @@ const AnimateSal = sal({
     // rootMargin : '0% 40%',
     // rootMargin : '00% 0%',
 });
+// if 
+    // window.addEventListener('load',AnimateSal);
 
-window.addEventListener('load',AnimateSal)
 // console.log(AnimateSal);
