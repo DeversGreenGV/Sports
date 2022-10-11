@@ -353,7 +353,7 @@
         padding: 1vw 8vw;
     }
     .WhoAre h2 {
-        font-size: 4.6vw;
+        font-size: 5.2vw;
         margin-bottom: 8vw;
     }
     .WhoAre p {
@@ -378,7 +378,7 @@
         text-align: justify;
     }
     .Priorities h2 {
-        font-size: 4.6vw;
+        font-size: 5.2vw;
         margin-bottom: 10vw;
     }
     .Priorities p.subtitle {
@@ -395,12 +395,18 @@
     }
     .Priorities .item h3 {
         font-size: 4.6vw;
-        margin-bottom: 5vw;
+        margin-bottom: 8vw;
     }
     .Priorities .item p.text {
-        margin-bottom: 8vw;
+        margin-bottom: 6vw;
         text-align: center;
         padding: 0px 5%;
         font-size: 4.5vw;
+    }
+    .Priorities .item p.name {
+        font-size: 4vw;
+    }
+    .Priorities .item p.post {
+        font-size: 3.5vw;
     }
 }
