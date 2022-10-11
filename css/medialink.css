@@ -379,15 +379,28 @@
     }
     .Priorities h2 {
         font-size: 4.6vw;
-        margin-bottom: 8vh;
+        margin-bottom: 10vw;
     }
     .Priorities p.subtitle {
         font-size: 4vw;
         text-align: center;
         width: 100%;
     }
+    .Priorities .container {
+        margin-bottom: 12vw;
+    }
     .Priorities .item {
         width: 100%;
+        padding: 10vw 0;
     }
-
+    .Priorities .item h3 {
+        font-size: 4.6vw;
+        margin-bottom: 5vw;
+    }
+    .Priorities .item p.text {
+        margin-bottom: 8vw;
+        text-align: center;
+        padding: 0px 5%;
+        font-size: 4.5vw;
+    }
 }
