@@ -409,4 +409,30 @@
     .Priorities .item p.post {
         font-size: 3.5vw;
     }
+    .Exactly .container h2 {
+        font-size: 5.2vw;
+        margin-bottom: 10vw;
+    }
+    .Exactly .container {
+        margin-bottom: 8vh;
+    }
+    .Exactly .container p {
+        font-size: 4.5vw;
+        width: 100%;
+        text-align: justify;
+        line-height: 6.5vw;
+    }
+    .Exactly .control {
+        justify-content: space-evenly;
+        margin-bottom: 10vw;
+    }
+    .Exactly .control p {
+        font-size: 4.0vw;
+    }
+    .Exactly .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
 }
