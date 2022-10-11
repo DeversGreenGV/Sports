@@ -354,11 +354,11 @@
     }
     .WhoAre h2 {
         font-size: 4.6vw;
-        margin-bottom: 4vw;
+        margin-bottom: 8vw;
     }
     .WhoAre p {
         width: 100%;
-        font-size: 3.5vw;
+        font-size: 4vw;
         line-height: 6.5vw;
         text-align: justify;
     }
@@ -373,8 +373,21 @@
     }
     .Dignities p {
         width: 100%;
-        font-size: 3.5vw;
+        font-size: 4vw;
         line-height: 6.5vw;
         text-align: justify;
     }
+    .Priorities h2 {
+        font-size: 4.6vw;
+        margin-bottom: 8vh;
+    }
+    .Priorities p.subtitle {
+        font-size: 4vw;
+        text-align: center;
+        width: 100%;
+    }
+    .Priorities .item {
+        width: 100%;
+    }
+
 }
