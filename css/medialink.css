@@ -333,13 +333,19 @@
         font-size: 15vw;
     }
     .AboutUs p {
-        font-size: 3.5vw;
+        /* font-size: 3.5vw;
         line-height: 5vw;
+        width: 100%;
+        text-align: justify; */
+        font-size: 4vw;
+        line-height: 5.5vw;
         width: 100%;
         text-align: justify;
     }
     .AboutUs a {
-        margin-top: 5vw;
+        /* margin-top: 5vw; */
+        margin: 0 auto;
+        margin-top: 8vw;
     }
     .AboutUs button {
         font-size: 3.4vw;
