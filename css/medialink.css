@@ -414,7 +414,7 @@
         margin-bottom: 10vw;
     }
     .Exactly .container {
-        margin-bottom: 8vh;
+        margin-bottom: 5vh;
     }
     .Exactly .container p {
         font-size: 4.5vw;
@@ -433,6 +433,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        width: 100%;
+    }
+    .Exactly .features .item {
         width: 100%;
     }
 }
