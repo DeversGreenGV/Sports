@@ -417,7 +417,7 @@
         margin-bottom: 5vh;
     }
     .Exactly .container p {
-        font-size: 4.5vw;
+        font-size: 4vw;
         width: 100%;
         text-align: justify;
         line-height: 6.5vw;
@@ -437,5 +437,21 @@
     }
     .Exactly .features .item {
         width: 100%;
+    }
+    .Exactly .features h3 {
+        font-size: 4.6vw;
+        margin-bottom: 5vw;
+    }
+    .Exactly .features p.text {
+        font-size: 4vw;
+        margin: 0;
+        padding: 0 5%;
+        margin-bottom: 8vw;
+    }
+    .Exactly .features p.name {
+        font-size: 4vw;
+    }
+    .Exactly .features p.post {
+        font-size: 3.5vw;
     }
 }
