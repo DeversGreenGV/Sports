@@ -573,4 +573,31 @@
         margin-bottom: 3vh;
         line-height: 6.5vw;
     }
+    .Quote2 p.name {
+        font-size: 3.8vw;
+    }
+
+    .links {
+        display: none;
+        width: 50%;
+        justify-content: space-around;
+    }
+    .socials {
+        max-width: 100%;
+        width: 100%;
+    }
+    .socials h2 {
+        font-size: 5.2vw;
+        margin-bottom: 4vw;
+    }
+    .socials p {
+        font-size: 4vw;
+    }
+    .soc-cont {
+        width: 70%;
+    }
+    .soc-cont .wrap {
+        padding: 6px;
+    }
+
 }
