@@ -527,7 +527,7 @@
         width: 100%;
     }
     .Projects .text .subtitle {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     .Projects .text .title {
         font-size: 4vw;
@@ -536,10 +536,41 @@
     .Projects .text .desc {
         width: 100%;
         font-size: 3.5vw;
-        line-height: 6.5vw;
+        line-height: 6vw;
         text-align: justify;
     }
     .Projects .image {
         width: 100%;
+    }
+    .Trips .list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .Trips .item {
+        width: max-content;
+        display: flex;
+        flex-direction: column;       
+        color: #fff;
+        font-family: "Raleway-Medium", serif;
+        margin-bottom: 8vw;
+    }
+    .Trips .item:last-child {
+        margin-bottom: 0vw;
+    }
+    .Trips .item .text {
+        font-size: 4vw;
+        margin-bottom: 2vw;
+    }
+    .Trips .item .date {
+        font-size: 3.5vw;
+    }
+    .Quote2 p.text {
+        font-size: 4vw;
+        text-align: justify;
+        margin-bottom: 3vh;
+        line-height: 6.5vw;
     }
 }
