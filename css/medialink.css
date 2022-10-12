@@ -293,12 +293,6 @@
         position: relative; */
         display: flex !important;
     }
-}
-
-@media (max-width: 700px) { 
-    
-}
-@media (max-width: 500px) { 
     header img {
         height: 30px;
         width: 32px;
@@ -316,9 +310,314 @@
     .navigation {
         width: 15%;
     }
-    .menu-bar {
-        outline: none;
-        
+    .constraint.block {
+        padding: 10vw 10vw;
+    }
+    .AboutUs {
+        background-position: 70% !important;
+    }
+    .AboutUs .container {
+        padding-top: 20vh;
+    }
+    .AboutUs h1 {
+        font-size: 6vw;
+    }
+    .AboutUs p {
+        /* font-size: 3.5vw;
+        line-height: 5vw;
+        width: 100%;
+        text-align: justify; */
+        font-size: 2vw;
+        line-height: 3.5vw;
+        width: 80%;
+        text-align: justify;
+    }
+    .AboutUs a {
+            /* margin-top: 5vw; */
+        /* margin: 0 auto; */
+        margin-top: 4vw;
+    }
+    .AboutUs button {
+        font-size: 2vw;
+        line-height: 30px;
+        padding: 0.2vw 2.5vw;
+    }
+    .WhoAre h2 {
+        font-size: 5.2vw;
+        margin-bottom: 8vw;
+    }
+    .WhoAre p {
+        width: 100%;
+        font-size: 4vw;
+        line-height: 6.5vw;
+        text-align: justify;
+    }
+    .Dignities .item {
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    .Dignities h3 {
+        text-align: center;
+        font-size: 4.6vw;
+        margin-bottom: 4vw;
+    }
+    .Dignities p {
+        width: 100%;
+        font-size: 4vw;
+        line-height: 6.5vw;
+        text-align: justify;
+    }
+    .Priorities h2 {
+        font-size: 5.2vw;
+        margin-bottom: 10vw;
+    }
+    .Priorities p.subtitle {
+        font-size: 4vw;
+        text-align: center;
+        width: 100%;
+    }
+    .Priorities .container {
+        margin-bottom: 12vw;
+    }
+    .Priorities .item {
+        width: 100%;
+        padding: 10vw 0;
+    }
+    .Priorities .item h3 {
+        font-size: 4.6vw;
+        margin-bottom: 8vw;
+    }
+    .Priorities .item p.text {
+        margin-bottom: 6vw;
+        text-align: center;
+        padding: 0px 5%;
+        font-size: 4.5vw;
+    }
+    .Priorities .item p.name {
+        font-size: 4vw;
+    }
+    .Priorities .item p.post {
+        font-size: 3.5vw;
+    }
+    .Exactly .container h2 {
+        font-size: 5.2vw;
+        margin-bottom: 10vw;
+    }
+    .Exactly .container {
+        margin-bottom: 5vh;
+    }
+    .Exactly .container p {
+        font-size: 4vw;
+        width: 100%;
+        text-align: justify;
+        line-height: 6.5vw;
+    }
+    .Exactly .control {
+        justify-content: space-evenly;
+        margin-bottom: 10vw;
+    }
+    .Exactly .control p {
+        font-size: 4.0vw;
+    }
+    .Exactly .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .Exactly .features .item {
+        width: 100%;
+        margin-bottom: 10vw;
+    }
+    .Exactly .features h3 {
+        font-size: 5vw;
+        margin-bottom: 5vw;
+    }
+    .Exactly .features p.text {
+        font-size: 4vw;
+        margin: 0;
+        padding: 0 5%;
+        margin-bottom: 3.5vw;
+    }
+    .Exactly .features p.name {
+        font-size: 3.5vw;
+    }
+    .Exactly .features p.post {
+        font-size: 3.5vw;
+    }
+    .Quote p.text {
+        font-size: 4vw;
+        text-align: justify;
+        margin-bottom: 3vh;
+        line-height: 6.5vw;
+    }
+    .Quote p.name {
+        font-size: 3.8vw;
+    }
+    .Nature {
+        flex-wrap: wrap;
+    }
+    .Nature .text {
+        width: 100%;
+        margin-bottom: 10vw;
+    }
+    .Nature h2 {
+        font-size: 5.2vw;
+        margin-bottom: 5vw;
+    }
+    .Nature p {
+        font-size: 4vw;
+        width: 90%;
+        line-height: 6.5vw;
+    }
+    .Nature .image {
+        width: 100%;
+        min-height: 40vh;
+    }
+    
+    .Tickets {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .Tickets .text {
+        width: 100%;
+        padding: 10vw 0;
+        padding-right: 10vw;
+    }
+    .Tickets h2 {
+        font-size: 5.2vw;
+        margin-bottom: 5vw;
+    }
+    .Tickets p {
+        font-size: 4vw;
+        width: 90%;
+        line-height: 6.5vw;
+    }
+    .Tickets a {
+        width: max-content;
+        margin: 0 auto;
+        margin-top: 5vw;
+        padding-left: 10vw;
+    }
+    .Tickets button {
+        font-size: 3.5vw;
+        margin-top: 0vh;
+        padding: 0.5vw 8vw;
+    }
+    .Tickets .image {
+        width: 100%;
+        min-height: 40vh;
+    }
+    .Projects .item {
+        display: flex;
+        flex-direction: column-reverse !important;
+        margin-bottom: 8vw;
+    }
+    .Projects .text {
+        width: 100%;
+    }
+    .Projects .text .subtitle {
+        font-size: 3.5vw;
+    }
+    .Projects .text .title {
+        font-size: 4vw;
+        margin-bottom: 4vw;
+    }
+    .Projects .text .desc {
+        width: 100%;
+        font-size: 3.5vw;
+        line-height: 6vw;
+        text-align: justify;
+    }
+    .Projects .image {
+        width: 100%;
+    }
+    .Trips .list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .Trips .item {
+        width: max-content;
+        display: flex;
+        flex-direction: column;       
+        color: #fff;
+        font-family: "Raleway-Medium", serif;
+        margin-bottom: 8vw;
+    }
+    .Trips .item:last-child {
+        margin-bottom: 0vw;
+    }
+    .Trips .item .text {
+        font-size: 4vw;
+        margin-bottom: 2vw;
+    }
+    .Trips .item .date {
+        font-size: 3.5vw;
+    }
+    .Quote2 p.text {
+        font-size: 4vw;
+        text-align: justify;
+        margin-bottom: 3vh;
+        line-height: 6.5vw;
+    }
+    .Quote2 p.name {
+        font-size: 3.8vw;
+    }
+
+    .links {
+        display: none;
+        width: 50%;
+        justify-content: space-around;
+    }
+    .socials {
+        max-width: 100%;
+        width: 100%;
+    }
+    .socials h2 {
+        font-size: 5.2vw;
+        margin-bottom: 4vw;
+    }
+    .socials p {
+        font-size: 4vw;
+    }
+    .soc-cont {
+        width: 70%;
+    }
+    .soc-cont .wrap {
+        padding: 6px;
+    }
+}
+
+
+
+
+
+@media (max-width: 700px) { 
+    
+}
+
+
+
+@media (max-width: 500px) { 
+    header img {
+        height: 30px;
+        width: 32px;
+        margin: auto 0;
+    }
+    header .title {
+        font-size: 20px;
+    }
+    header .subtitle {
+        font-size: 6px;
+        font-family: 'Raleway-Regular', serif;
+        letter-spacing: 1.5px;
+        color: #ffffffad !important;
+    }
+    .navigation {
+        width: 15%;
     }
     .constraint.block {
         padding: 10vw 10vw;
