@@ -343,13 +343,13 @@
         padding: 0.2vw 2.5vw;
     }
     .WhoAre h2 {
-        font-size: 5.2vw;
-        margin-bottom: 8vw;
+        font-size: 3vw;
+        margin-bottom: 5vw;
     }
     .WhoAre p {
         width: 100%;
-        font-size: 4vw;
-        line-height: 6.5vw;
+        font-size: 2.5vw;
+        line-height: 4vw;
         text-align: justify;
     }
     .Dignities .item {
