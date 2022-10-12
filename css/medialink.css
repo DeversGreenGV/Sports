@@ -504,7 +504,10 @@
         line-height: 6.5vw;
     }
     .Tickets a {
+        width: max-content;
+        margin: 0 auto;
         margin-top: 5vw;
+        padding-left: 10vw;
     }
     .Tickets button {
         font-size: 3.5vw;
@@ -514,5 +517,29 @@
     .Tickets .image {
         width: 100%;
         min-height: 40vh;
+    }
+    .Projects .item {
+        display: flex;
+        flex-direction: column-reverse !important;
+        margin-bottom: 8vw;
+    }
+    .Projects .text {
+        width: 100%;
+    }
+    .Projects .text .subtitle {
+        font-size: 3vw;
+    }
+    .Projects .text .title {
+        font-size: 3.5vw;
+        margin-bottom: 4vw;
+    }
+    .Projects .text .desc {
+        width: 100%;
+        font-size: 3.5vw;
+        line-height: 6.5vw;
+        text-align: justify;
+    }
+    .Projects .image {
+        width: 100%;
     }
 }
