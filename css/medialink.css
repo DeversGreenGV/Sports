@@ -354,17 +354,17 @@
     }
     .Dignities .item {
         width: 100%;
-        margin-bottom: 5vh;
+        margin-bottom: 10vh;
     }
     .Dignities h3 {
         text-align: center;
-        font-size: 4.6vw;
-        margin-bottom: 4vw;
+        font-size: 2.8vw;
+        margin-bottom: 3vw;
     }
     .Dignities p {
         width: 100%;
-        font-size: 4vw;
-        line-height: 6.5vw;
+        font-size: 2.5vw;
+        line-height: 4vw;
         text-align: justify;
     }
     .Priorities h2 {
