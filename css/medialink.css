@@ -583,14 +583,14 @@
         width: 100%;
     }
     .socials h2 {
-        font-size: 5.2vw;
-        margin-bottom: 4vw;
+        font-size: 3vw;
+        margin-bottom: 2vw;
     }
     .socials p {
-        font-size: 4vw;
+        font-size: 2.5vw;
     }
     .soc-cont {
-        width: 70%;
+        width: 45%;
     }
     .soc-cont .wrap {
         padding: 6px;
