@@ -382,43 +382,43 @@
     }
     .Priorities .item {
         width: 100%;
-        padding: 10vw 0;
+        padding: 5vw 0;
     }
     .Priorities .item h3 {
-        font-size: 4.6vw;
-        margin-bottom: 8vw;
+        font-size: 2.8vw;
+        margin-bottom: 3vw;
     }
     .Priorities .item p.text {
-        margin-bottom: 6vw;
+        margin-bottom: 2vw;
         text-align: center;
         padding: 0px 5%;
-        font-size: 4.5vw;
+        font-size: 2.5vw;
     }
     .Priorities .item p.name {
-        font-size: 4vw;
+        font-size: 2.3vw;
     }
     .Priorities .item p.post {
-        font-size: 3.5vw;
+        font-size: 2.2vw;
     }
     .Exactly .container h2 {
-        font-size: 5.2vw;
-        margin-bottom: 10vw;
+        font-size: 3vw;
+        margin-bottom: 5vw;
     }
     .Exactly .container {
         margin-bottom: 5vh;
     }
     .Exactly .container p {
-        font-size: 4vw;
         width: 100%;
+        font-size: 2.5vw;
+        line-height: 4vw;
         text-align: justify;
-        line-height: 6.5vw;
     }
     .Exactly .control {
         justify-content: space-evenly;
         margin-bottom: 10vw;
     }
     .Exactly .control p {
-        font-size: 4.0vw;
+        font-size: 2.8vw;
     }
     .Exactly .features {
         display: flex;
@@ -431,20 +431,20 @@
         margin-bottom: 10vw;
     }
     .Exactly .features h3 {
-        font-size: 5vw;
-        margin-bottom: 5vw;
+        font-size: 2.8vw;
+    margin-bottom: 3vw;
     }
     .Exactly .features p.text {
-        font-size: 4vw;
-        margin: 0;
-        padding: 0 5%;
-        margin-bottom: 3.5vw;
+        margin-bottom: 2vw;
+        text-align: center;
+        padding: 0px 5%;
+        font-size: 2.5vw;
     }
     .Exactly .features p.name {
-        font-size: 3.5vw;
+        font-size: 2.3vw;
     }
     .Exactly .features p.post {
-        font-size: 3.5vw;
+        font-size: 2.2vw;
     }
     .Quote p.text {
         font-size: 4vw;
