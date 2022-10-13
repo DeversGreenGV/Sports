@@ -448,10 +448,10 @@
         font-size: 2.2vw;
     }
     .Quote p.text {
-        font-size: 4vw;
+        font-size: 2.5vw;
         text-align: justify;
         margin-bottom: 3vh;
-        line-height: 6.5vw;
+        line-height: 4.5vw;
     }
     .Quote p.name {
         font-size: 2.6vw;
@@ -513,60 +513,64 @@
     .Projects .item {
         display: flex;
         flex-direction: column-reverse !important;
-        margin-bottom: 8vw;
+        margin-bottom: 3vw;
     }
     .Projects .text {
         width: 100%;
     }
     .Projects .text .subtitle {
-        font-size: 3.5vw;
+        font-size: 2.2vw;
     }
     .Projects .text .title {
-        font-size: 4vw;
-        margin-bottom: 4vw;
+        font-size: 2.5vw;
+        margin-bottom: 2vw;
     }
     .Projects .text .desc {
         width: 100%;
-        font-size: 3.5vw;
-        line-height: 6vw;
+        font-size: 2.5vw;
+        line-height: 4vw;
         text-align: justify;
     }
     .Projects .image {
         width: 100%;
     }
+    .Projects .image svg {
+        width: 20%;
+        height: 55%;
+    }
     .Trips .list {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
-        justify-content: space-around;
-
+        justify-content: normal;
     }
     .Trips .item {
-        width: max-content;
+        width: 50%;
         display: flex;
-        flex-direction: column;       
+        flex-direction: column;
         color: #fff;
         font-family: "Raleway-Medium", serif;
-        margin-bottom: 8vw;
+        margin-bottom: 6vw;
     }
     .Trips .item:last-child {
         margin-bottom: 0vw;
     }
     .Trips .item .text {
-        font-size: 4vw;
+        font-size: 2.5vw;
         margin-bottom: 2vw;
     }
     .Trips .item .date {
-        font-size: 3.5vw;
+        font-size: 2.2vw;
     }
     .Quote2 p.text {
-        font-size: 4vw;
+        font-size: 2.5vw;
         text-align: justify;
         margin-bottom: 3vh;
-        line-height: 6.5vw;
+        line-height: 4.5vw;
     }
     .Quote2 p.name {
-        font-size: 3.8vw;
+        font-size: 2.6vw;
     }
 
     .links {
