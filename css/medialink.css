@@ -435,6 +435,7 @@
     margin-bottom: 2vw;
     }
     .Exactly .features p.text {
+        margin: 0;
         margin-bottom: 2vw;
         text-align: center;
         padding: 0px 5%;
@@ -453,7 +454,7 @@
         line-height: 6.5vw;
     }
     .Quote p.name {
-        font-size: 3.8vw;
+        font-size: 2.6vw;
     }
     .Nature {
         flex-wrap: wrap;
@@ -463,17 +464,17 @@
         margin-bottom: 10vw;
     }
     .Nature h2 {
-        font-size: 5.2vw;
-        margin-bottom: 5vw;
+        font-size: 3vw;
+        margin-bottom: 3vw;
     }
     .Nature p {
-        font-size: 4vw;
+        font-size: 2.5vw;
         width: 90%;
-        line-height: 6.5vw;
+        line-height: 4vw;
     }
     .Nature .image {
         width: 100%;
-        min-height: 40vh;
+        min-height: 90vh;
     }
     
     .Tickets {
@@ -486,28 +487,28 @@
         padding-right: 10vw;
     }
     .Tickets h2 {
-        font-size: 5.2vw;
-        margin-bottom: 5vw;
+        font-size: 3vw;
+        margin-bottom: 3vw;
     }
     .Tickets p {
-        font-size: 4vw;
+        font-size: 2.5vw;
         width: 90%;
-        line-height: 6.5vw;
+        line-height: 4vw;
     }
     .Tickets a {
         width: max-content;
-        margin: 0 auto;
-        margin-top: 5vw;
-        padding-left: 10vw;
+        /* margin: 0 auto; */
+        margin-top: 3vw;
+        /* padding-left: 12vw;*/
     }
     .Tickets button {
-        font-size: 3.5vw;
+        font-size: 2.2vw;
         margin-top: 0vh;
-        padding: 0.5vw 8vw;
+        padding: 0.2vw 4vw;
     }
     .Tickets .image {
         width: 100%;
-        min-height: 40vh;
+        min-height: 90vh;
     }
     .Projects .item {
         display: flex;
