@@ -415,7 +415,7 @@
     }
     .Exactly .control {
         justify-content: space-evenly;
-        margin-bottom: 10vw;
+        margin-bottom: 3vw;
     }
     .Exactly .control p {
         font-size: 2.8vw;
@@ -428,11 +428,11 @@
     }
     .Exactly .features .item {
         width: 100%;
-        margin-bottom: 10vw;
+        margin-bottom: 5vw;
     }
     .Exactly .features h3 {
         font-size: 2.8vw;
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
     }
     .Exactly .features p.text {
         margin-bottom: 2vw;
